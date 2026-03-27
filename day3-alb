@@ -10,7 +10,7 @@
     Name = "gopal-alb"
   }
 }
-###lets create the target group b4.target-group copy from line 14 till 31 
+###lets create the target group b4.target-group.tf copy from line 14 till 31 
 resource "aws_lb_target_group" "app_tg" {
   name     = "gopal-tg"
   port     = 80

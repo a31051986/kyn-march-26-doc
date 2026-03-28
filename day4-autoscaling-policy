@@ -12,3 +12,7 @@
     
   }
 }
+##loging to amazon linux instance using connect button
+-n : total number of request 
+-c: concurrent user 
+ab -n 200000 -c 1000 http://gopal-alb-39356608.us-east-1.elb.amazonaws.com/

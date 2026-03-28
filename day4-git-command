@@ -86,3 +86,5 @@
 #lets push both the branch in remote 
 git push origin --all
   581  git push origin --all
+##if you want to see all the logs
+git reflog

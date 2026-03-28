@@ -63,3 +63,26 @@
   562  git add calcy.py
   563  git commit -m "ended calcy program"
   564  git push origin main
+#lets work on branch
+567  git branch
+#this will create a new branch called as dev
+  568  git branch dev
+  569  git branch
+#to move to the new branch checkout will be used 
+  570  git checkout dev
+  571  git branch
+#we will add a new line in dev branch
+  572  echo "we are developing a feature in dev branch" >> calcy.py
+  573  cat calcy.py
+  574  git add calcy.py
+  575  git commit -m "added a line in dev branch"
+  576  git branch
+#lets move to the main branch and merge the dev branch
+  577  git checkout main
+  578  cat calcy.py
+###merge it press esc :wq this will save the file
+  579  git merge dev
+  580  cat calcy.py
+#lets push both the branch in remote 
+git push origin --all
+  581  git push origin --all
